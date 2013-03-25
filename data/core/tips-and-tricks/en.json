@@ -1,0 +1,41 @@
+
+[
+  {
+    "title": "Stack transfer",
+    "image": "stack-transfer.png",
+    "text": "Invoking \"__CONTROL__stack-transfer__\" will move the whole item stack. Moreover the movement is smart enough to figure out where to move the stack. For instance invoking stack transfer on an __ITEM__iron-axe__ in the main inventory will put it into the tools slot." },
+  {
+    "title": "Inventory transfer",
+    "image": "inventory-transfer.png",
+    "text": "Invoking \"__CONTROL__inventory-transfer__\" will move all the item stacks of given type between the inventories. This can be used for instance to transfer all the transport belts from the __ENTITY__wooden-chest__ to the main inventory."
+  },
+  {
+    "title": "Fast Entity transfer",
+    "image": "fast-entity-transfer.png",
+    "text": "Invoking \"__CONTROL__fast-entity-transfer__\" allows to make transfer with selected entity without opening its gui. If player's hand is empty the transfer happens from entity into players inventory and vice versa when player's hand is full. This can be useful in early stages of the game to manage __ENTITY__stone-furnace__s, __ENTITY__burner-mining-drill__s, etc."
+  },
+  {
+    "title": "QuickBar access",
+    "image": "quickbar.png",
+    "text": "Every quick bar slot has a shortcut to fetch the item into the cursor. If you have another item from quickbar in cursor already, it is returned to the slot it was taken from."
+  },
+  {
+    "title": "Clean cursor",
+    "text": "Invoking \"__CONTROL__clean-cursor__\" will move the item stack from cursor into your inventory/quickbar."
+  },
+  {
+    "title": "Additional info",
+    "image": "show-info.png",
+    "text": "Invoking \"__CONTROL__show-info__\" will toggle extended info."
+  },
+  {
+    "title": "Bulding while running",
+    "image": "building-while-running.png",
+    "text": "The quickest way to build more stuff in a line, like transport belt, __ENTITY__pipe__ or inserter is to hold the \"__CONTROL__build__\" on the place you want to build and run in the desired direction."
+  },
+  {
+    "title": "Filters",
+    "image": "filter.png",
+    "text": "Invoking \"__CONTROL__set-filter__ on the quickbar slot lets you set what is this slot reserved for. No other item can be placed into this slot, and items of the selected type will be always primarily moved into this slot."
+  }
+]
