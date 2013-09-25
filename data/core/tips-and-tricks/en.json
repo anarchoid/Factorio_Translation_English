@@ -1,9 +1,20 @@
 
 [
   {
+    "title": "Other products made in furnace",
+    "image": "other-furnace-usage.png",
+    "text": "The furnace can smelt stone bricks from stone and steel from iron (the steel needs to be researched)."
+  },
+  {
+    "title": "Electric network info",
+    "image": "electric-network-info.png",
+    "text": "Invoking \"__CONTROL__open-gui__\" on electric pole will open statistics of the electric network it is connected to."
+  },
+  {
     "title": "Stack transfer",
     "image": "stack-transfer.png",
-    "text": "Invoking \"__CONTROL__stack-transfer__\" will move the whole item stack. Moreover, the transfer command is smart enough to figure out where to move the stack. For instance, performing a stack transfer on an __ITEM__iron-axe__ in the main inventory will have it placed into the tools slot." },
+    "text": "Invoking \"__CONTROL__stack-transfer__\" will move the whole item stack. Moreover, the transfer command is smart enough to figure out where to move the stack. For instance, performing a stack transfer on an __ITEM__iron-axe__ in the main inventory will have it placed into the tools slot."
+  },
   {
     "title": "Inventory transfer",
     "image": "inventory-transfer.png",
@@ -21,6 +32,7 @@
   },
   {
     "title": "Clean cursor",
+    "image": "clean-cursor.png",
     "text": "Invoking \"__CONTROL__clean-cursor__\" will move the item stack from the cursor into your inventory/quickbar."
   },
   {
@@ -34,8 +46,23 @@
     "text": "The quickest way to build more stuff in a straight line, like transport belts, __ENTITY__pipe__ or inserters is to hold the \"__CONTROL__build__\" on the place you want them to be built and run in the desired direction."
   },
   {
+    "title": "Fast building of electric lines",
+    "image": "building-electric-lines.png",
+    "text": "The fast way to build electric line is to drag the build key while moving, the next pole will be built on the furthest possible place automatically."
+  },
+  {
     "title": "Filters",
     "image": "filter.png",
     "text": "Invoking \"__CONTROL__set-filter__ on the quickbar slot lets you set what this slot is reserved for. No other item can be placed into this slot, and items of the selected type will always be priorly moved into this slot."
+  },
+  {
+    "title": "Usable items",
+    "image": "usable-items.png",
+    "text": "Usable items are activated by pressing the quickbar key on the corresponding slot. The mouse cursor specifies the place to activate them (for capsules and grenades)."
+  },
+  {
+    "title": "Copy build",
+    "image": "copy-build.png",
+    "text": "Building with \"__CONTROL__alternative-build__\" will copy all the machine internal configuration from the machine of that same type built for the last time. This includes the connection to the circuit network."
   }
 ]
