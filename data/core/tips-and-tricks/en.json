@@ -6,6 +6,16 @@
     "text": "The furnace can smelt stone bricks from stone and steel from iron (the steel needs to be researched)."
   },
   {
+    "title": "Two sides of belts",
+    "image": "two-sides-of-belts.png",
+    "text": "The left and right side of the transport belt can be used independently for different resources. Inserter puts things on the distant part of the belt."
+  },
+  {
+    "title": "Rebuilding",
+    "image": "rebuilding.png",
+    "text": "Stone furnace can be rebuilt by steel furnace without the need to mine the first one first. THe similar works for assembling machines, transport belts, inserters chests and similar. It can be used to change direction of transport belt."
+  },
+  {
     "title": "Electric network info",
     "image": "electric-network-info.png",
     "text": "Invoking \"__CONTROL__open-gui__\" on electric pole will open statistics of the electric network it is connected to."
