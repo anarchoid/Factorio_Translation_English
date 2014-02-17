@@ -69,10 +69,5 @@
     "title": "Usable items",
     "image": "usable-items.png",
     "text": "Usable items are activated by pressing the quickbar key on the corresponding slot. The mouse cursor specifies the place to activate them (for capsules and grenades)."
-  },
-  {
-    "title": "Copy build",
-    "image": "copy-build.png",
-    "text": "Building with \"__CONTROL__alternative-build__\" will copy all the machine internal configuration from the machine of that same type built for the last time. This includes the connection to the circuit network."
   }
 ]
